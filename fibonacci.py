@@ -8,13 +8,10 @@ def generate_fibonacci(n):
 
     return fibonacci_sequence
 
-# Input the number of terms for the Fibonacci sequence
 n = int(input("Enter the number of terms for the Fibonacci sequence: "))
 
-# Check for valid input
 if n <= 0:
     print("Please enter a positive integer for the number of terms.")
 else:
-    # Generate and print the Fibonacci sequence
     fibonacci_sequence = generate_fibonacci(n)
     print("Fibonacci Sequence:", fibonacci_sequence)
